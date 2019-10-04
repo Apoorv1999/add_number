@@ -1,5 +1,14 @@
-a = raw_input("enter no.1 - ")
-a = int(a)
-b = raw_input("enter no.2 - ")
-b = int(b)
-print a+b
+while True:
+    try:
+        a = input("Enter no.1: \n")
+        a = int(a)
+
+        b = input("Enter no.2: \n")
+        b = int(b)
+        break
+
+    except:
+        print("Please enter a number")
+
+print("The sum is:")
+print(a+b)
