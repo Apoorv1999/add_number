@@ -1,5 +1,6 @@
-a = raw_input("enter no.1 - ")
-a = int(a)
-b = raw_input("enter no.2 - ")
-b = int(b)
-print a+b
+f1 = int(input("enter first number: "))
+f2 = int(input("enter second number: "))
+ 
+sum = f1 + f2
+ 
+print("Sum is:", sum)
